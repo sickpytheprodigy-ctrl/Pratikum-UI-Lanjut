@@ -1,11 +1,11 @@
 <script setup>
 const categories = [
-  { name: 'Music & Concerts', icon: '??', count: 24 },
-  { name: 'Technology', icon: '??', count: 18 },
-  { name: 'Art & Design', icon: '??', count: 12 },
-  { name: 'Business', icon: '??', count: 30 },
-  { name: 'Health & Wellness', icon: '?????', count: 15 },
-  { name: 'Food & Drink', icon: '??', count: 22 },
+  { name: 'Music & Concerts', icon: '🎵', count: 24 },
+  { name: 'Technology', icon: '💻', count: 18 },
+  { name: 'Art & Design', icon: '🎨', count: 12 },
+  { name: 'Business', icon: '💼', count: 30 },
+  { name: 'Health & Wellness', icon: '💚', count: 15 },
+  { name: 'Food & Drink', icon: '🍽️', count: 22 },
 ]
 </script>
 

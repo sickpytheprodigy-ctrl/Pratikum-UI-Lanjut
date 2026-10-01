@@ -18,7 +18,7 @@
 
     <section class="features">
       <div class="feature-card" v-for="i in 3" :key="i">
-        <div class="feature-icon">{{ ['?', '??', '??'][i-1] }}</div>
+        <div class="feature-icon">{{ ['🗓️', '🌐', '👥'][i-1] }}</div>
         <h3>{{ ['Curated Events', 'Global Reach', 'Community Driven'][i-1] }}</h3>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequat.</p>
