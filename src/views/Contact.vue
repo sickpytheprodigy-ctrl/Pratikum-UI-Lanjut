@@ -11,21 +11,21 @@
     <div class="contact-content">
       <div class="contact-info">
         <div class="info-item">
-          <div class="info-icon">??</div>
+          <div class="info-icon">📍</div>
           <div>
             <h3>Our Office</h3>
             <p>123 Event Street, Tech City, 10101</p>
           </div>
         </div>
         <div class="info-item">
-          <div class="info-icon">??</div>
+          <div class="info-icon">📞</div>
           <div>
             <h3>Phone</h3>
             <p>+62 812 3456 7890</p>
           </div>
         </div>
         <div class="info-item">
-          <div class="info-icon">??</div>
+          <div class="info-icon">✉️</div>
           <div>
             <h3>Email</h3>
             <p>hello@gatherly.com</p>
