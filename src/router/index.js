@@ -1,5 +1,6 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import AppLayout from '@/Layouts/App.vue'
+import DashboardLayout from '@/Layouts/DashboardLayout.vue'
 
 const routes = [
   {
@@ -54,20 +55,26 @@ const routes = [
     ],
   },
   {
+    /* AREA PENYELENGGARA ACARA (DASHBOARD) */
     path: '/dashboard',
-    component: () => import('@/Layouts/DashboardLayout.vue'),
+    component: DashboardLayout,
     children: [
       {
         path: '',
-        name: 'dashboard',
+        name: 'dashboard-overview',
         component: () => import('@/views/Dashboard.vue'),
+      },
+      {
+        path: 'events',
+        name: 'dashboard-events',
+        component: () => import('@/views/EventManagement.vue'),
       },
     ],
   },
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 })
 
